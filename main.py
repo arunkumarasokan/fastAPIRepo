@@ -1,7 +1,7 @@
 import uvicorn
 from fastapi import FastAPI
 import pickle
-import numpy as np
+
 
 #openModel
 pickle_in = open("ExxonOil.pickle", "rb")
